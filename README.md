@@ -2,7 +2,7 @@
 
 <h3> Website Title: Badings! </h3>
 
-This website talks all about the presence of LGBTQ+ in our society today. It covers topics such as an introduction to LGBTQ+, a brief overview of sexual orientation in general, how one can raise awareness for people in the LGBTQ+ community, and firsthand experiences from the creators of the website. Overall, it aims to help someone properly understand what LGBTQ+ actually is, what issues are presented to these people, and what they can do to promote acceptance of LGBTQ+ in their community.
+This website talks all about the presence of LGBTQ+ in our society today. It covers topics such as an introduction to LGBTQ+, a brief overview of sexual orientation in general, how one can raise awareness for people in the LGBTQ+ community, and firsthand experiences from the creators of the website. Overall, it aims to help someone properly understand what LGBTQ+ actually is, what issues are presented to this group of people, and what they can do to promote acceptance of LGBTQ+ in their community.
 
 <h4> Page 1 (Home Page): Badings! </h4>
 <ul>
