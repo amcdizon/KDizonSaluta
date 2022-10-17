@@ -91,3 +91,41 @@ p#mio_intro, p#tres_intro {
 	display: inline-block;
 	float: left;
 }
+
+/* lgbtq page css */
+#lgbtq {
+  background-color: #ffeecc;
+}
+
+#intro_lgbtq {
+  position: absolute;
+  display: inline-block;
+  width: 70%;
+  left: 190px;
+  clear: left;
+  border: 5px solid #cceeff;
+  padding: 10px;
+  overflow: hidden;
+  text-align: justify;
+}
+
+#history {
+  position: absolute;
+  display: inline-block;
+  width: 70%;
+  right: 190px;
+  clear: right;
+  border: 5px solid #cceeff;
+  padding: 10px;
+  overflow: hidden;
+  text-align: justify;
+}
+
+#rainbow2 {
+  position: absolute;
+  display: inline-block;
+  right: 0px;
+  float: right;
+  clear: right;
+  overflow: hidden;
+}
