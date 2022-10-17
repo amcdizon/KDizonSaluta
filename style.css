@@ -67,29 +67,76 @@ body > img {
 }
 
 div#mio, div#tres {
-	
+	margin: 0 auto;
+	height: 40vh;
+	width: 80%;
+	border: 3px outset orange;
+	background: skyblue;
+	position: relative;
+	overflow: hidden;
 }
 
-#mio div, #tres div {
-	
-}
-
-div#mio_pic, div#tres_pic {
+#mio_pic{
+	position: absolute;
 	display: inline-block;
-}
-
-div#mio_hi, div#tres_hi {
-	width: 20vw;
-	height: 250px;
-	display: inline-block;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20%;
+	left: 5px;
+	overflow: hidden;
 	float: left;
+	clear: left;
 }
 
-p#mio_intro, p#tres_intro {
-	width: 50vw;
-	height: 250px;
+#tres_pic {
+	position: absolute;
 	display: inline-block;
-	float: left;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20%;
+	right: 5px;
+	overflow: hidden;
+	float: right;
+	clear: right;
+}
+
+#mio_intro {
+	position: absolute;
+	display: inline-block;
+	width: 50%;
+	height: 40vh;
+	left: 185px;
+	clear: left;
+	text-align: justify;
+}
+
+#tres_intro {
+	position: absolute;
+	display: inline-block;
+	width: 50%;
+	height: 40vh;
+	right: 185px;
+	clear: right;
+	text-align: justify;
+}
+
+#mio_hi {
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20%;
+	right: 5px;
+	text-align: right;
+}
+
+#tres_hi {
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20%;
+	left: 5px;
 }
 
 /* lgbtq page css */
