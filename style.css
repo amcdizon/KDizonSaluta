@@ -1,53 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 html, body {
 	height: 100%;
 	width: 100%;
 }
 
+* {
+	box-sizing: border-box;
+}
+
+div {
+	overflow: hidden;
+	display: inline-block;
+	font-family: 'Fuzzy Bubbles', cursive;
+}
+
 body > img {
 	width: 80vw;
-	height: 45vh;
+	height: 42vh;
+	margin: 15px;
 }
 
-#intro {
-	font-family: sans-serif;
+.background {
+	background-color: #ffeecc;
+}
+
+h1, h2 {
+  font-family: 'Poppins', cursive;
+}
+
+.homepage{
+  background-color: #ffeecc;
+}
+
+#home_intro {
+	position: relative;
 	font-size: 15px;
 	text-align: center;
-	padding: 5px;
-	width: 1000px;
+  left: 2vw;
+	padding: 10px;
+	width: 80vw;
+	height: 20vw;
+	border: 3px outset orange;
+	background: skyblue;
+	font-family: 'Fuzzy Bubbles', cursive;
+	font-size: 1.5em;
 }
 
-.navigation {
-	font-family: 'Segoe UI', Tahoma;
-	font-size: 15px;
+#navigation {
+	position: relative;
+	left: 2vw;
+	width: 80vw;
+	height: 20vw;
+	border: 3px outset orange;
+	background-color: rgba(135,206,235,0.7);
+	clear: left;
+}
+
+#navigation div {
+	position: absolute;
+	width: 15vw;
+	height: 180px;
+	top: 50%;
+	transform: translateY(-50%);
 	text-align: center;
-	display: inline-block;
-	width: 150px;
-	padding: 5px;
 }
 
-.imgtext {
-	padding: 5px;
-	font-family: 'Segoe UI', Tahoma;
-	font-size: 15px;
-	text-align: center;
-	display: inline-block;
-	width: 150px;
+#p1_navig {
+	left: 4.5vw;
 }
 
-.edge {
-	display: inline-block;
-	width: 50px;
+#p2_navig {
+	left: 22.5vw;
 }
 
-.divider {
-	display: inline-block;
-	width: 100px;
+#p3_navig {
+	left: 40.5vw;
 }
 
-#sidebar
-.divider {
-	display: inline-block;
-	width: 100px;
+#p4_navig {
+	left: 58.5vw;
 }
 
 .sidebar {
@@ -56,123 +89,141 @@ body > img {
   	position: fixed;
   	right: 0px;
   	top: 0px;
-	text-align: left;
-	display: inline-block;
+	  text-align: center;
   	width: 15vw;
-	font-family:'Segoe UI', Tahoma;
+	  font-family: 'Fuzzy Bubbles', cursive;
 }
 
-#header1 {
-	
+.nav{
+  list-style: none;
+}
+
+.nav li a{
+  text-decoration: none;
+  text-align: center;
 }
 
 div#mio, div#tres {
-	margin: 0 auto;
-	height: 40vh;
+	left: 3%;
+	height: 50vh;
 	width: 80%;
 	border: 3px outset orange;
 	background: skyblue;
 	position: relative;
-	overflow: hidden;
 }
 
 #mio_pic{
 	position: absolute;
-	display: inline-block;
 	top: 50%;
 	transform: translateY(-50%);
 	width: 20%;
 	left: 5px;
-	overflow: hidden;
 	float: left;
 	clear: left;
 }
 
 #tres_pic {
 	position: absolute;
-	display: inline-block;
 	top: 50%;
 	transform: translateY(-50%);
 	width: 20%;
 	right: 5px;
-	overflow: hidden;
 	float: right;
 	clear: right;
 }
 
 #mio_intro {
 	position: absolute;
-	display: inline-block;
 	width: 50%;
-	height: 40vh;
-	left: 185px;
+	height: 50vh;
+	left: 200px;
 	clear: left;
 	text-align: justify;
 }
 
 #tres_intro {
 	position: absolute;
-	display: inline-block;
 	width: 50%;
-	height: 40vh;
-	right: 185px;
+	height: 50vh;
+	right: 200px;
 	clear: right;
 	text-align: justify;
 }
 
 #mio_hi {
 	position: absolute;
-	display: inline-block;
 	top: 50%;
 	transform: translateY(-50%);
-	width: 20%;
+	width: 25%;
 	right: 5px;
-	text-align: right;
+	text-align: center;
 }
 
 #tres_hi {
 	position: absolute;
-	display: inline-block;
 	top: 50%;
 	transform: translateY(-50%);
-	width: 20%;
+	width: 25%;
 	left: 5px;
+	text-align: center;
+}
+
+.back {
+	bottom: 0px;
+	left: 0px;
+	font-family: 'Poppins', cursive;
 }
 
 /* lgbtq page css */
-#lgbtq {
-  background-color: #ffeecc;
+#lgbtq_intro, #lgbtq_history {
+	position: relative;
+	border: 3px outset red;
+	left: 3%;
+	width: 80%;
+	height: 60vh;
+	z-index: 3;
 }
 
-#intro_lgbtq {
+#p_intro {
   position: absolute;
-  display: inline-block;
-  width: 70%;
-  left: 190px;
   clear: left;
-  border: 5px solid #cceeff;
+  border: 3px dashed green;
   padding: 10px;
-  overflow: hidden;
   text-align: justify;
+  width: 60vw;
+  height: 58vh;
+  font-size: 1.2em;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
 }
 
-#history {
+#p_history {
   position: absolute;
-  display: inline-block;
-  width: 70%;
-  right: 190px;
   clear: right;
-  border: 5px solid #cceeff;
+  border: 3px dashed green;
   padding: 10px;
-  overflow: hidden;
   text-align: justify;
+  width: 60vw;
+  height: 58vh;
+  z-index: 2;
+  font-size: 1.2em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#rainbow1 {
+  position: absolute;
+  clear: left;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #rainbow2 {
   position: absolute;
-  display: inline-block;
-  right: 0px;
-  float: right;
   clear: right;
-  overflow: hidden;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
 }
