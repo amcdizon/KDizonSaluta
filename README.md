@@ -19,11 +19,11 @@
 <h4> Page 5: Icons <h4>
 <h6> This page contains examples of well-known LGBTQIA+ icons and their experiences. <h6>
 
-Wireframe: Home Page
+<h2> Wireframe: Home Page <h2>
 ![home page](https://user-images.githubusercontent.com/112600680/200201896-8c1f16a7-28df-463d-9a21-fa984f6148d4.png)
 
-Wireframe: About Us Page
+<h2> Wireframe: About Us Page <h2>
 ![about us](https://user-images.githubusercontent.com/112600680/200202281-d06ae45a-547f-4bb2-ad21-b01528c931e8.png)
 
-Wireframe: What is LGBTQIA+ Page
+<h2> Wireframe: What is LGBTQIA+ Page <h2>
 ![what is lgbtq+](https://user-images.githubusercontent.com/112600680/200202308-1fe06fad-9e4c-4344-82fc-b097fc37c098.png)
